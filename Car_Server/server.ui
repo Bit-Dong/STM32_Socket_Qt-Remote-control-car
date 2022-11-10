@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>server</class>
+ <widget class="QWidget" name="server">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1080</width>
+    <height>1960</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>控制界面</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">font: 16pt &quot;Adobe Arabic&quot;;</string>
+  </property>
+  <widget class="QPushButton" name="forward">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>980</y>
+     <width>431</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 50pt &quot;Adobe Arabic&quot;;</string>
+   </property>
+   <property name="text">
+    <string>前进</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="back">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>1660</y>
+     <width>431</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 50pt &quot;Adobe Arabic&quot;;</string>
+   </property>
+   <property name="text">
+    <string>后退</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="turn_right">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>1290</y>
+     <width>231</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 50pt &quot;Adobe Arabic&quot;;</string>
+   </property>
+   <property name="text">
+    <string>右转</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="turn_left">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>1290</y>
+     <width>221</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 50pt &quot;Adobe Arabic&quot;;</string>
+   </property>
+   <property name="text">
+    <string>左转</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="stop">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>1290</y>
+     <width>251</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 50pt &quot;Adobe Arabic&quot;;</string>
+   </property>
+   <property name="text">
+    <string>停止</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEditRead">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>170</y>
+     <width>871</width>
+     <height>331</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="speed_up">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>670</y>
+     <width>251</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 50pt &quot;Adobe Arabic&quot;;</string>
+   </property>
+   <property name="text">
+    <string>加速</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="speed_down">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>670</y>
+     <width>271</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 50pt &quot;Adobe Arabic&quot;;</string>
+   </property>
+   <property name="text">
+    <string>减速</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
